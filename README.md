@@ -1,1 +1,1 @@
-This program is designed to convert unstructured surface triangulations into volumetric hexahedral meshes for finite element analysis. The input file format can be either ASCII or binary STL and the output file format is Abaqus’s INP.
+This program is designed to convert unstructured surface triangulations into volumetric hexahedral meshes for finite element analysis. The input file format can be either ASCII or binary STL and the output file format is Abaqus’s INP. Please see the user manual (MeshSTL_user_guide.pdf) for more information.
