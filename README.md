@@ -75,27 +75,20 @@ combination developed by Teschner et al. . The hashing code (written in
 C++11) is shown below.
 
 const unsigned long prime1 = 24036583;
-
 const unsigned long prime2 = 13466917;
-
 const unsigned long prime3 = 20996011;
 
 unsigned long hash\_coordinates(float x, float y, float z)
 
 {
-
-unsigned long fx, fy, fz;
-
-fx = (unsigned long)floor(x/this\_tolerance);
-
-fy = (unsigned long)floor(y/this\_tolerance);
-
-fz = (unsigned long)floor(z/this\_tolerance);
-
-unsigned long hash\_val = (fx\*prime1 xor fy\*prime2 xor fz\*prime3);
-
-return hash\_val;
-
+    unsigned long fx, fy, fz;
+    
+    fx = (unsigned long)floor(x/this\_tolerance);
+    fy = (unsigned long)floor(y/this\_tolerance);
+    fz = (unsigned long)floor(z/this\_tolerance);
+    
+    unsigned long hash\_val = (fx\*prime1 xor fy\*prime2 xor fz\*prime3);
+    return hash\_val;
 }
 
 Octree Creation
