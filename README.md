@@ -9,8 +9,9 @@ is Abaqus’s INP.
 Disclaimer
 ==========
 
-Since this program is still in the development stage, the validity of
-the output has not been verified for all input cases.
+This program was an educational project, and is no longer maintained. The 
+code is amateur at best, and there is no guarentee as to the validity of
+the output. 
 
 Directions
 ==========
